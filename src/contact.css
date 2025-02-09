@@ -1,0 +1,106 @@
+.MaincontentPacakage{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    height: 90vh;
+}
+.headercontact{
+    text-align: center;
+}
+.headercontact p{
+    color: rgb(33, 46, 160);
+    font-size: 30px;
+}
+.headercontact h2{
+    color: rgb(0, 15, 56);
+    font-size: 45px;
+}
+.subcontentcontact{
+    display: flex;
+    height: 80vh;
+    margin-top: 50px;
+}
+.info{
+    width: 50%;
+}
+.formcontact{
+    width: 50%;
+}
+.msg{
+    width: 30px;
+    height: 30px;
+}
+.info h2{
+    color: rgb(0, 15, 56);
+    font-size: 30px;
+    font-weight:400;
+}
+.Feel{
+    margin-top: 20px;
+    color: rgb(103, 103, 103);
+    font-size: 20px;
+}
+.fa-envelope ,.fa-phone ,.fa-location-dot{
+    color: rgb(33, 46, 160);
+    font-size: 30px;
+    /* position: absolute; */
+}
+.feell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location ,.phoneno ,.emailid{
+    position: relative;
+    margin-top: 30px;
+    color: rgb(103, 103, 103);
+    font-size: 20px;
+}
+.fa-location-dot{
+    position: absolute;
+    margin-right: 30px;
+    font-size: 40px;
+}
+.contactform{
+    margin-left: 250px;
+}
+textarea{
+    resize: none;
+}
+label{
+    color: rgb(103, 103, 103);
+    font-size: 22px;
+}
+.inname ,.mobileno {
+    background-color: rgb(235, 236, 254);
+    border-radius: 5px;
+    width: 95%;
+    height: 6vh;
+    border: none;
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: left;
+}
+.inmessage{
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(235, 236, 254);
+    height: 15vh;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.btwsumbit{
+    margin-top: 25px;
+    background-color: rgb(47, 59, 164);
+    color: white;
+    width:200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+}
+form p{
+    color:white;
+    font-size: 10px;
+}

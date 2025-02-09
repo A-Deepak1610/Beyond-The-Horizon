@@ -1,0 +1,19 @@
+.Footer{
+    margin-left: 10%;
+    width: 80%;
+    height:5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.line{
+    width: 100%;
+    border: 0.5px solid rgb(92, 92, 92);
+}
+.conditions{
+    margin-top: 15px;
+    color: rgb(16, 16, 16);
+}
+.conditions p{
+    cursor: pointer;
+}

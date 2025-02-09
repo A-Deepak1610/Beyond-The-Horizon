@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  top: 0;
+  padding: 0;
+  /* user-select: none; */
+}
+.bgt {
+    /* padding:px; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/reviews.jpg");
+  background-size: cover;
+  background-position: center;
+  height:94vh;
+    overflow: hidden;
+    color: white;
+  /* width:98%; */
+}
+.contentreviews{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.head{
+    /* margin-left: 10%; */
+    margin-top:3%;
+}
+.head h1{
+    font-weight: 700;
+    font: bold 3.5rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.head p{
+    font-size: 1.3rem;
+    color: white;
+    /* margin-top: 1%; */
+    margin-left: 5px;
+}
+.reviews{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 60px;
+}
+.review1{
+  padding:35px;
+  background-color: rgb(240, 135, 13);
+  height: 275px;
+  width: 600px;
+  border-radius: 20px;
+  /* margin-left: 16%; */
+}
+.review1 p{
+  font-size:20px;
+  font-weight: 300;
+  /* margin-top: 30px; */
+  /* margin-left: 30px; */
+} 
+.review2{
+  padding:35px;
+  margin-left:30px;
+  background-color: rgb(240, 135, 13);
+  height: 275px;
+  width:600px;
+  border-radius: 20px;
+
+}
+.review2 p{
+  font-size:20px;
+  font-weight: 300;
+  /* font-family: ' */
+  /* margin-top: 30px; */
+  /* margin-left: 30px; */
+}
+.review1pic{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.review2pic{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.review1name ,.review2name{
+  margin-top: 30px;
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 50px;
+  align-items: center;
+}
+.review1name p{
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 800;
+  
+}
+.review2name p{
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.Bangalore ,.Coimbatore{
+  font-size: 20px;
+  font-weight: 350;
+}
