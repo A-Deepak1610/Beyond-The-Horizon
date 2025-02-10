@@ -1,6 +1,6 @@
 * {
   /* overflow-x: hidden; */
-  user-select: none;
+  /* user-select: none; */
   margin: 0;
   padding: 0;
   font-family: "Roboto";
@@ -443,7 +443,7 @@ button{
     }
     .bars{
       display: block;
-      margin-right:40px;
+      margin-right:10px;
       margin-top: 7px;
       font-weight: 500;
       font-size: 25px;
@@ -466,8 +466,9 @@ button{
       display: none;
     }
     .bg {
-      margin-left: 9vw;
-      height:70vh;
+      margin-left: 10vw;
+      height:45vh;
+      /* display: none; */
     }
     .parachute {
       height: 80px;
@@ -481,23 +482,35 @@ button{
     }
     .save{
       font-size: 22px;
-      margin-left: 57px;
+      margin-top: 30px;
+       text-align: center;
+      width: 132%;
     }
     .Make{
-      font-size: 15px;
+      font-size:55px;
+      text-align: center;
+      width: 132%;
+      margin-top: 10px;
     }
      .center{
       display: block;
      }
      .contact{
       margin-top: 5px;
-      left: 39%;
+      left: 28%;
       font-size: 13px;
-      width: 30vw;
+      width: 35vw;
+      top:25px;
      }
-    .content{
-      display: block;
-    }
+     .Thinking{
+      display: none;
+     }
+     .moredetail{
+      
+      justify-content: center;
+      width: 100%;
+     }
+   
 }
 .usericon{
   color: #1100ff;

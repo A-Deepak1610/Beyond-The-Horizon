@@ -1,10 +1,8 @@
 import "./navbar.css";
 import "./medianavbar.css"
 import img1src from "./assets/logo.png";
-import photo from "./assets/photo.png";
 import parachute from "./assets/parachute.png";
 import bg from "./assets/bg.png";
-import googleicon from "./assets/googleicon.png";
 import conatctlogo from "./assets/contact.png";
 import camping from "./assets/camping.png";
 import { useState } from "react";

@@ -17,3 +17,8 @@
 .conditions p{
     cursor: pointer;
 }
+@media  screen and (max-width:768px) {
+    .Footer{
+        display: none;
+    }
+}

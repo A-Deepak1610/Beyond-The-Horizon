@@ -85,3 +85,8 @@
     border: none;
     border-radius: 10px;
 }
+@media  screen and (max-width:768px) {
+    .tourpackages{
+        display: block;
+    }
+}

@@ -92,4 +92,14 @@
     .picururedestination{
         display: block;
     }
+    .headerdetinations p{
+        font-size: 27px;
+    }
+    .we{
+        text-align: center;
+    }
+    .france img ,.Indonesia img ,.bali img ,.dubai img{
+        width: 100%;
+        height: 45vh;
+    }
 }
